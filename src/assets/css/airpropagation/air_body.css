@@ -1,0 +1,53 @@
+.province {
+  line-height: 50px;
+  width: 100%;
+}
+.province_map {
+  line-height: 780px;
+  /*background-color: skyblue;*/
+}
+.info_chart {
+  line-height: 785px;
+  /*background-color: orange;*/
+}
+.province_border {
+  display: inline-block;
+  height: 840px;
+  width: 100px;
+  overflow-y: auto;
+  margin-left: 10px;
+  margin-top: 16px;
+  border-style:solid;
+  border-width:4px;
+  border-color:#294D98;
+  border-radius: 13px;
+  box-shadow: 0 3px 15px 1px rgba(70, 98, 171, .7);
+  background: linear-gradient(#1D3772 , #162854);
+}
+.map_border {
+  line-height: 395px;
+  /*background-color: yellow;*/
+}
+.line_border {
+  line-height: 390px;
+  /*background-color: green;*/
+}
+.time_border {
+  line-height: 250px;
+  /*background-color: rosybrown;*/
+}
+.loc_border {
+  line-height: 535px;
+  /*background-color: aqua;*/
+}
+.base_button {
+  text-align: center;
+}
+.button {
+  line-height: 7px;
+  width: 79px;
+  border-radius: 0px;
+}
+::-webkit-scrollbar {
+  display: none;
+}

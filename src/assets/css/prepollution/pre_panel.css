@@ -1,0 +1,103 @@
+.panel {
+  position: relative;
+  height: 100px;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  /*background: rgba(255, 255, 255, 0.04) url();*/
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5382E2;
+  border-left: 2px solid #5382E2;
+}
+.panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5382E2;
+  border-right: 2px solid #5382E2;
+}
+.panel .panel-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.panel .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid #5382E2;
+  border-left: 2px solid #5382E2;
+}
+.panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid #5382E2;
+  border-right: 2px solid #5382E2;
+}
+.sunburst-panel {
+  height: 300px;
+  width: 310px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.calendar-panel {
+  height: 300px;
+  width: 98%;
+  margin-left: 2px;
+}
+.windflow-panel {
+  height: 300px;
+  width: 95%;
+  margin-left: 15px;
+}
+.scatter-panel {
+  height: 300px;
+  width: 90%;
+  margin-left: 15px;
+}
+.map-panel {
+  height: 550px;
+  width: 827px;
+}
+.sankey-panel {
+  height: 550px;
+  width: 94%;
+  margin-left: 15px;
+}
+.sunburst-panel h2,
+.calendar-panel h2,
+.windflow-panel h2,
+.scatter-panel h2,
+.map-panel h2,
+.sankey-panel h2{
+  line-height: 25px;
+  font-size: 12px;
+  color: #DDF6FF;
+  background: linear-gradient(to right, #1F3D81 , #162854);
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.bubble-pul {
+  /*background-color: pink;*/
+  line-height: 300px;
+  margin-top: 100px;
+}

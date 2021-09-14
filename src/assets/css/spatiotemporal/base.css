@@ -1,0 +1,77 @@
+.panel {
+  height: 755px;
+}
+.mapbox {
+  /*background-color: green;*/
+  line-height: 538px;
+}
+.mapbox .panel {
+  width: 96%;
+  height: 850px;
+  margin-left: 18px;
+}
+.tagbox .tag1box {
+  line-height: 275px;
+  /*background-color: salmon;*/
+
+}
+.tagbox .tag2box {
+  line-height: 270px;
+  padding-top: 5px;
+  /*background-color: yellow;*/
+}
+.map_title {
+  line-height: 30px;
+  /*background-color: cadetblue;*/
+  text-align: center;
+}
+.map_title h2 {
+  font-size: 15px;
+  color: #DDF6FF;
+  margin-top: 2px;
+  background: linear-gradient(to right, #1F3D81 , #162854);
+}
+.tag1box .panel {
+  width: 95%;
+  height: 420px;
+}
+.tag1_title {
+  line-height: 25px;
+  text-align: center;
+}
+.tag1_title h2 {
+  font-size: 11px;
+  color: #DDF6FF;
+  margin-top: 2px;
+  background: linear-gradient(to right, #1F3D81 , #162854);
+}
+.tag2box .panel {
+  width: 95%;
+  height: 400px;
+}
+.tag2_title {
+  line-height: 25px;
+  text-align: center;
+}
+.tag2_title h2 {
+  font-size: 11px;
+  color: #DDF6FF;
+  margin-top: 2px;
+  background: linear-gradient(to right, #1F3D81 , #162854);
+}
+.mapbox .panel::before {
+  width: 30px;
+  height: 30px;
+}
+.mapbox .panel::after {
+  width: 30px;
+  height: 30px;
+}
+.mapbox .panel .panel-footer::before {
+  width: 30px;
+  height: 30px;
+}
+.mapbox .panel .panel-footer::after {
+  width: 30px;
+  height: 30px;
+}

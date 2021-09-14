@@ -1,0 +1,42 @@
+.column1,
+.column2,
+.column3 {
+  line-height: 875px;
+}
+.column1 {
+  /*background-color: pink;*/
+}
+.column2 {
+  /*background-color: paleturquoise;*/
+}
+.column3 {
+  /*background-color: palegreen;*/
+}
+.select {
+  line-height: 600px;
+  /*background-color: rebeccapurple;*/
+}
+.ansuer {
+  line-height: 275px;
+  /*background-color: cornflowerblue;*/
+}
+.probar {
+  line-height: 200px;
+  /*background-color: lightcoral;*/
+}
+.map {
+  line-height: 675px;
+  /*background-color: lavender;*/
+}
+.proaqi {
+  line-height: 291px;
+  /*background-color: paleturquoise;*/
+}
+.dicaqi {
+  line-height: 291px;
+  /*background-color: hotpink;*/
+}
+.pollution {
+  line-height: 291px;
+  /*background-color: orange;*/
+}

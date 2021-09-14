@@ -1,0 +1,106 @@
+.panel {
+  position: relative;
+  height: 3.875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  /*background: rgba(255, 255, 255, 0.04) url(../images/line\(1\).png);*/
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+}
+.panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5382E2;
+  border-left: 2px solid #5382E2;
+}
+.panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #5382E2;
+  border-right: 2px solid #5382E2;
+}
+.panel .panel-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.panel .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid #5382E2;
+  border-left: 2px solid #5382E2;
+}
+.panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid #5382E2;
+  border-right: 2px solid #5382E2;
+}
+.sel_panel {
+  width: 95%;
+  height: 550px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.ansuer_panel {
+  width: 95%;
+  height: 290px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.probar_panel {
+  height: 200px;
+  margin-top: 5px;
+}
+.map_panel {
+  margin-top: 5px;
+  height: 640px;
+}
+.proaqi_panel {
+  width: 95%;
+  height: 274px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.dicaqi_panel {
+  width: 95%;
+  height: 276px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.pollution_panel {
+  width: 95%;
+  height: 276px;
+  margin-left: 5px;
+}
+.sel_panel h2,
+.ansuer_panel h2,
+.probar_panel h2,
+.map_panel h2,
+.proaqi_panel h2,
+.dicaqi_panel h2,
+.pollution_panel h2 {
+  line-height: 25px;
+  font-size: 12px;
+  color: #DDF6FF;
+  background: linear-gradient(to right, #1F3D81 , #162854);
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2px;
+}

@@ -1,0 +1,53 @@
+.title,
+.time,
+.nav{
+  /*background-color: pink;*/
+  line-height: 60px;
+}
+.bg {
+  padding-bottom: 10px;
+  background-image: url(../../img/head_bg.jpg);
+  background-size: 100%;
+}
+.nav {
+  /*background-color: cornflowerblue;*/
+}
+.title {
+  padding-left: 40px;
+  color: #DDF6FF;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "黑体";
+}
+.left {
+  margin-left: 1px;
+}
+.center {
+  margin-left: 15px;
+}
+.right {
+  margin-top: 5px;
+  margin-left: 200px;
+}
+.left,
+.center,
+.right {
+  display: inline-block;
+  /*background-color: yellow;*/
+  text-decoration: none;
+  color: #5BB9FC;
+}
+.time {
+  margin-left: 50px;
+  font-size: 14px;
+  color: #DDF6FF;
+  font-family: "黑体";
+}
+.title h3 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.time .showTime {
+  margin-left: 111px;
+  margin-top: 8px;
+}

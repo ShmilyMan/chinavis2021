@@ -1,0 +1,69 @@
+
+.name_select {
+  line-height: 40px;
+}
+.name_select h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.my_name_select {
+  line-height: 40px;
+}
+.my_value_select {
+  line-height: 40px;
+}
+.my_name_select h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.block {
+  width: 90%;
+  padding-top: 10px;
+}
+.pollution_panel img {
+  margin-left: 100px;
+  margin-top: 45px;
+  width: 180px;
+  height: 100px;
+}
+.img_select p {
+  color: #fff;
+  margin-left: 140px;
+  font-size: 16px;
+}
+.detail-info .p1 {
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 100px;
+}
+.detail-info .p2 {
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 110px;
+}
+.detail-info .p3 {
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 60px;
+}
+.detail-info .p4 {
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 60px;
+}
+.base-title {
+  line-height: 40px;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 8px;
+}
